@@ -41,7 +41,7 @@
     "colorette": "1.1.0",
     "dedent": "0.7.0",
     "fast-glob": "3.2.2",
-    "fs-extra": "8.1.0",
+    "fs-extra": "9.0.0",
     "icss-utils": "4.1.1",
     "minimatch": "3.0.4",
     "pkg-up": "3.1.0",
