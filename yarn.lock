@@ -1915,7 +1915,7 @@
     minimist "^1.2.0"
 
 "@design-systems/build@link:plugins/build":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@babel/code-frame" "7.8.3"
     "@babel/core" "7.9.0"
@@ -1928,7 +1928,7 @@
     "@babel/runtime" "7.9.2"
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
-    autoprefixer "9.7.4"
+    autoprefixer "9.7.6"
     babel-plugin-styled-components "1.10.7"
     babel-preset-jest "25.1.0"
     change-case "4.1.1"
@@ -1956,7 +1956,7 @@
     typescript "3.8.3"
 
 "@design-systems/bundle@link:plugins/bundle":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/build" "link:plugins/build"
     "@design-systems/cli-utils" "link:packages/cli-utils"
@@ -1974,7 +1974,7 @@
     webpack "4.41.5"
 
 "@design-systems/clean@link:plugins/clean":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
@@ -1983,7 +1983,7 @@
     tslib "1.11.1"
 
 "@design-systems/cli-utils@link:packages/cli-utils":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     find-up "4.1.0"
     npm-which "3.0.1"
@@ -1993,7 +1993,7 @@
     webpack "4.41.5"
 
 "@design-systems/core@link:packages/core":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/build" "link:plugins/build"
     "@design-systems/bundle" "link:plugins/bundle"
@@ -2013,7 +2013,7 @@
     tslib "1.11.1"
 
 "@design-systems/create-command@link:plugins/create-command":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/create" "link:packages/create"
@@ -2032,10 +2032,10 @@
     tslib "1.11.1"
 
 "@design-systems/create@link:packages/create":
-  version "1.4.14"
+  version "1.4.15"
 
 "@design-systems/dev@link:plugins/dev":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
@@ -2045,7 +2045,7 @@
     tslib "1.11.1"
 
 "@design-systems/eslint-config@link:packages/eslint-config":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@typescript-eslint/eslint-plugin" "2.17.0"
@@ -2068,7 +2068,7 @@
     tslib "1.11.1"
 
 "@design-systems/lint@link:plugins/lint":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/eslint-config" "link:packages/eslint-config"
@@ -2085,7 +2085,7 @@
     tslib "1.11.1"
 
 "@design-systems/load-config@link:packages/load-config":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/core" "link:packages/core"
     "@design-systems/plugin" "link:packages/plugin"
@@ -2099,7 +2099,7 @@
     tslib "1.11.1"
 
 "@design-systems/playroom@link:plugins/playroom":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@babel/core" "7.9.0"
     "@babel/register" "7.9.0"
@@ -2118,14 +2118,14 @@
     webpack "4.41.5"
 
 "@design-systems/plugin@link:packages/plugin":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     command-line-application "0.9.6"
     tslib "1.11.1"
     utility-types "3.10.0"
 
 "@design-systems/proof@link:plugins/proof":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@babel/core" "7.9.0"
     "@babel/plugin-transform-runtime" "7.9.0"
@@ -2143,7 +2143,7 @@
     tslib "1.11.1"
 
 "@design-systems/size@link:plugins/size":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
@@ -2173,7 +2173,7 @@
     webpack-sources "1.4.3"
 
 "@design-systems/storybook@link:plugins/storybook":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@babel/core" "7.9.0"
     "@design-systems/build" "link:plugins/build"
@@ -2198,16 +2198,16 @@
     react-docgen-typescript-loader "3.6.0"
     source-map-loader "0.2.4"
     story2sketch "1.7.0"
-    storybook-addon-jsx "7.1.15"
-    storybook-addon-react-docgen "1.2.32"
-    storybook-addon-sketch "0.1.0"
-    storybook-dark-mode "0.3.1"
+    storybook-addon-jsx "^7.1.15"
+    storybook-addon-react-docgen "^1.2.32"
+    storybook-addon-sketch "^0.1.0"
+    storybook-dark-mode "^0.3.1"
     tslib "1.11.1"
     webpack "4.41.5"
     webpack-filter-warnings-plugin "1.2.1"
 
 "@design-systems/stylelint-config@link:packages/stylelint-config":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     stylelint-a11y "1.2.3"
     stylelint-config-css-modules "2.2.0"
@@ -2221,7 +2221,7 @@
     tslib "1.11.1"
 
 "@design-systems/test@link:plugins/test":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@babel/core" "7.9.0"
     "@design-systems/build" "link:plugins/build"
@@ -2241,7 +2241,7 @@
     tslib "1.11.1"
 
 "@design-systems/update@link:plugins/update":
-  version "1.4.14"
+  version "1.4.15"
   dependencies:
     "@design-systems/cli-utils" "link:packages/cli-utils"
     "@design-systems/plugin" "link:packages/plugin"
@@ -5945,7 +5945,20 @@ auto@9.21.0:
     terminal-link "^2.1.1"
     tslib "1.11.1"
 
-autoprefixer@9.7.4, autoprefixer@^9.7.2, autoprefixer@^9.7.4:
+autoprefixer@9.7.6:
+  version "9.7.6"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.7.6.tgz#63ac5bbc0ce7934e6997207d5bb00d68fa8293a4"
+  integrity sha512-F7cYpbN7uVVhACZTeeIeealwdGM6wMtfWARVLTy5xmKtgVdBNJvbDRoCK3YO1orcs7gv/KwYlb3iXwu9Ug9BkQ==
+  dependencies:
+    browserslist "^4.11.1"
+    caniuse-lite "^1.0.30001039"
+    chalk "^2.4.2"
+    normalize-range "^0.1.2"
+    num2fraction "^1.2.2"
+    postcss "^7.0.27"
+    postcss-value-parser "^4.0.3"
+
+autoprefixer@^9.7.2, autoprefixer@^9.7.4:
   version "9.7.4"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.7.4.tgz#f8bf3e06707d047f0641d87aee8cfb174b2a5378"
   integrity sha512-g0Ya30YrMBAEZk60lp+qfX5YQllG+S5W3GYCFvyHTvhOki0AEQJLPEcIuGRsqVwLi8FvXPVtwTGhfr38hVpm0g==
@@ -6703,6 +6716,16 @@ browserslist@^4.0.0, browserslist@^4.6.0, browserslist@^4.8.3:
     electron-to-chromium "^1.3.322"
     node-releases "^1.1.44"
 
+browserslist@^4.11.1:
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.11.1.tgz#92f855ee88d6e050e7e7311d987992014f1a1f1b"
+  integrity sha512-DCTr3kDrKEYNw6Jb9HFxVLQNaue8z+0ZfRBRjmCunKDEXEBajKDj2Y+Uelg+Pi29OnvaSGwjOsnRyNEkXzHg5g==
+  dependencies:
+    caniuse-lite "^1.0.30001038"
+    electron-to-chromium "^1.3.390"
+    node-releases "^1.1.53"
+    pkg-up "^2.0.0"
+
 browserslist@^4.9.1:
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.11.0.tgz#aef4357b10a8abda00f97aac7cd587b2082ba1ad"
@@ -7023,6 +7046,11 @@ caniuse-lite@^1.0.30001035:
   version "1.0.30001036"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001036.tgz#930ea5272010d8bf190d859159d757c0b398caf0"
   integrity sha512-jU8CIFIj2oR7r4W+5AKcsvWNVIb6Q6OZE3UsrXrZBHFtreT4YgTeOJtTucp+zSedEpTi3L5wASSP0LYIE3if6w==
+
+caniuse-lite@^1.0.30001038, caniuse-lite@^1.0.30001039:
+  version "1.0.30001040"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001040.tgz#103fc8e6eb1d7397e95134cd0e996743353d58ea"
+  integrity sha512-Ep0tEPeI5wCvmJNrXjE3etgfI+lkl1fTDU6Y3ZH1mhrjkPlVI9W4pcKbMo+BQLpEWKVYYp2EmYaRsqpPC3k7lQ==
 
 capital-case@^1.0.3:
   version "1.0.3"
@@ -9140,6 +9168,11 @@ electron-to-chromium@^1.3.380:
   version "1.3.380"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.380.tgz#1e1f07091b42b54bccd0ad6d3a14f2b73b60dc9d"
   integrity sha512-2jhQxJKcjcSpVOQm0NAfuLq8o+130blrcawoumdXT6411xG/xIAOyZodO/y7WTaYlz/NHe3sCCAe/cJLnDsqTw==
+
+electron-to-chromium@^1.3.390:
+  version "1.3.402"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.402.tgz#9ad93c0c8ea2e571431739e0d76bd6bc9788a846"
+  integrity sha512-gaCDfX7IUH0s3JmBiHCDPrvVcdnTTP1r4WLJc2dHkYYbLmXZ2XHiJCcGQ9Balf91aKTvuCKCyu2JjJYRykoI1w==
 
 element-resize-detector@^1.1.15:
   version "1.1.15"
@@ -14771,6 +14804,11 @@ node-releases@^1.1.52:
   dependencies:
     semver "^6.3.0"
 
+node-releases@^1.1.53:
+  version "1.1.53"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.53.tgz#2d821bfa499ed7c5dffc5e2f28c88e78a08ee3f4"
+  integrity sha512-wp8zyQVwef2hpZ/dJH7SfSrIPD6YoJz6BDQDpGEkcA0s3LpAQoxBIYmfIq6QAhC1DhwsyCgTaTTcONwX8qzCuQ==
+
 noop2@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/noop2/-/noop2-2.0.0.tgz#4b636015e9882b54783c02b412f699d8c5cd0a5b"
@@ -15765,7 +15803,7 @@ pkg-dir@^4.1.0, pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-pkg-up@2.0.0:
+pkg-up@2.0.0, pkg-up@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/pkg-up/-/pkg-up-2.0.0.tgz#c819ac728059a461cab1c3889a2be3c49a004d7f"
   integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
@@ -19031,7 +19069,7 @@ story2sketch@1.7.0, story2sketch@^1.5.0:
     qler "^0.3.0"
     yargs "^10.1.1"
 
-storybook-addon-jsx@7.1.15:
+storybook-addon-jsx@^7.1.15:
   version "7.1.15"
   resolved "https://registry.yarnpkg.com/storybook-addon-jsx/-/storybook-addon-jsx-7.1.15.tgz#e43b8be4c67cef61273ec647f7820437e562d375"
   integrity sha512-Z2FWukjv8k4f5oP/c/0lbgWJItL3PNQ3SE3KLZ6rvhYeuAPCoMJppEYSs/FYeMZP5Z3LgygtD1v0R5kqwbb2Aw==
@@ -19041,7 +19079,7 @@ storybook-addon-jsx@7.1.15:
     js-beautify "^1.8.8"
     react-element-to-jsx-string "^14.3.1"
 
-storybook-addon-react-docgen@1.2.32:
+storybook-addon-react-docgen@^1.2.32:
   version "1.2.32"
   resolved "https://registry.yarnpkg.com/storybook-addon-react-docgen/-/storybook-addon-react-docgen-1.2.32.tgz#3226fca12a0b5a971f6bdac1830281f83c96d0f2"
   integrity sha512-qCn/8bNLptJvok79AbhyRcUquzSl3WH3Sck1Bi60MpU00GHyYCqE8JeAfuQPPUh7ocMpqitw0Z+Prz4gzhuFOg==
@@ -19051,7 +19089,7 @@ storybook-addon-react-docgen@1.2.32:
     react-addons-create-fragment "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-storybook-addon-sketch@0.1.0:
+storybook-addon-sketch@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/storybook-addon-sketch/-/storybook-addon-sketch-0.1.0.tgz#c62ee46bfadfa62be2aa054dcd114eaf18d35d7c"
   integrity sha512-BwhKKRlYqnIu9VE6D3HhZCU6W/qnadM1uUHD0OsklrCk6poQOqt51tSKqKyh0zkvVK+iYJ+ZgXiGbYs/YmwL2A==
@@ -19090,7 +19128,7 @@ storybook-chromatic@^2.2.2:
     tree-kill "^1.1.0"
     uuid "^3.3.2"
 
-storybook-dark-mode@0.3.1:
+storybook-dark-mode@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-0.3.1.tgz#9d1ff2183babbf1fc41a295a46470230efc3321a"
   integrity sha512-xtvnxO3X4W4siVRSS4YgrIrHRGGNINZ2pKFAxl5+Ao4fu3MALaZ3aYVwPU7iqKu0cEmJ7MlVLEEwGErGzKdPhg==
