@@ -2198,10 +2198,10 @@
     react-docgen-typescript-loader "3.6.0"
     source-map-loader "0.2.4"
     story2sketch "1.7.0"
-    storybook-addon-jsx "7.1.15"
-    storybook-addon-react-docgen "1.2.32"
-    storybook-addon-sketch "0.1.0"
-    storybook-dark-mode "0.3.1"
+    storybook-addon-jsx "^7.1.15"
+    storybook-addon-react-docgen "^1.2.32"
+    storybook-addon-sketch "^0.1.0"
+    storybook-dark-mode "^0.4.0"
     tslib "1.11.1"
     webpack "4.41.5"
     webpack-filter-warnings-plugin "1.2.1"
@@ -19031,7 +19031,7 @@ story2sketch@1.7.0, story2sketch@^1.5.0:
     qler "^0.3.0"
     yargs "^10.1.1"
 
-storybook-addon-jsx@7.1.15:
+storybook-addon-jsx@^7.1.15:
   version "7.1.15"
   resolved "https://registry.yarnpkg.com/storybook-addon-jsx/-/storybook-addon-jsx-7.1.15.tgz#e43b8be4c67cef61273ec647f7820437e562d375"
   integrity sha512-Z2FWukjv8k4f5oP/c/0lbgWJItL3PNQ3SE3KLZ6rvhYeuAPCoMJppEYSs/FYeMZP5Z3LgygtD1v0R5kqwbb2Aw==
@@ -19041,7 +19041,7 @@ storybook-addon-jsx@7.1.15:
     js-beautify "^1.8.8"
     react-element-to-jsx-string "^14.3.1"
 
-storybook-addon-react-docgen@1.2.32:
+storybook-addon-react-docgen@^1.2.32:
   version "1.2.32"
   resolved "https://registry.yarnpkg.com/storybook-addon-react-docgen/-/storybook-addon-react-docgen-1.2.32.tgz#3226fca12a0b5a971f6bdac1830281f83c96d0f2"
   integrity sha512-qCn/8bNLptJvok79AbhyRcUquzSl3WH3Sck1Bi60MpU00GHyYCqE8JeAfuQPPUh7ocMpqitw0Z+Prz4gzhuFOg==
@@ -19051,7 +19051,7 @@ storybook-addon-react-docgen@1.2.32:
     react-addons-create-fragment "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-storybook-addon-sketch@0.1.0:
+storybook-addon-sketch@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/storybook-addon-sketch/-/storybook-addon-sketch-0.1.0.tgz#c62ee46bfadfa62be2aa054dcd114eaf18d35d7c"
   integrity sha512-BwhKKRlYqnIu9VE6D3HhZCU6W/qnadM1uUHD0OsklrCk6poQOqt51tSKqKyh0zkvVK+iYJ+ZgXiGbYs/YmwL2A==
@@ -19090,10 +19090,10 @@ storybook-chromatic@^2.2.2:
     tree-kill "^1.1.0"
     uuid "^3.3.2"
 
-storybook-dark-mode@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-0.3.1.tgz#9d1ff2183babbf1fc41a295a46470230efc3321a"
-  integrity sha512-xtvnxO3X4W4siVRSS4YgrIrHRGGNINZ2pKFAxl5+Ao4fu3MALaZ3aYVwPU7iqKu0cEmJ7MlVLEEwGErGzKdPhg==
+storybook-dark-mode@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/storybook-dark-mode/-/storybook-dark-mode-0.4.0.tgz#d58f6d6591150138d666876d342d724d841af843"
+  integrity sha512-z6srmjsQxMVaaiyeeYav4wywloUzQQg64vX2ajdGViRsbfy9z3TbBcOBdnDzLLLCAx9S8ATly8njoy3S6KsEpg==
   dependencies:
     fast-deep-equal "^3.0.0"
     memoizerific "^1.11.3"
